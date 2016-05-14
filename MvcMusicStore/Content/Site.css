@@ -480,6 +480,7 @@ footer
         height: 100px;
         width: 100%;
         border-top: 1px solid #c7c7c7;
+        text-align: center;
     }
 
 
@@ -488,16 +489,13 @@ footer ul
         list-style-type: none;
         margin: 0 auto;
         width: 216px;
-        padding: 40px 0;
-        
-     
+        padding: 40px 0 20px;
+        text-align: center;
     }
 
 footer ul li
     {
         display: inline;
-        padding-right: 20px;
-        float: left;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -520,6 +518,10 @@ footer ul li img
         width: 88px;
     }
 
+footer p {
+        font-size: 12px;
+        margin-bottom: 20px;
+}
 
 /*	Albums
     ------------------------------------------------------- */
